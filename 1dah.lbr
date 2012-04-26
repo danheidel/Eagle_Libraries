@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4323,8 +4323,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="B+" x="-3" y="-10.6" dx="2" dy="4" layer="1"/>
 <text x="5.7" y="8.2" size="1.27" layer="21">R</text>
 <text x="5.5" y="-9.4" size="1.27" layer="21">R</text>
-<hole x="-10.3" y="0" drill="1.6"/>
-<hole x="10.3" y="0" drill="1.6"/>
+<hole x="-10.3" y="0" drill="2.8"/>
+<hole x="10.3" y="0" drill="2.8"/>
 <polygon width="0.127" layer="1">
 <vertex x="-7" y="7"/>
 <vertex x="7" y="7" curve="-90"/>
@@ -5315,6 +5315,59 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="2.5" y="-9.4"/>
 <vertex x="-2.5" y="-9.3"/>
 </polygon>
+</package>
+<package name="BLUETOOTHMODULE">
+<wire x1="-13.7" y1="6.5" x2="7.2" y2="6.5" width="0.127" layer="48"/>
+<wire x1="7.2" y1="6.5" x2="13.7" y2="6.5" width="0.127" layer="48"/>
+<wire x1="13.7" y1="6.5" x2="13.7" y2="-6.5" width="0.127" layer="48"/>
+<wire x1="13.7" y1="-6.5" x2="7.2" y2="-6.5" width="0.127" layer="48"/>
+<wire x1="7.2" y1="-6.5" x2="-13.7" y2="-6.5" width="0.127" layer="48"/>
+<wire x1="-13.7" y1="-6.5" x2="-13.7" y2="6.5" width="0.127" layer="48"/>
+<wire x1="7.2" y1="6.5" x2="7.2" y2="-6.5" width="0.127" layer="48"/>
+<smd name="13" x="-11.9" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="12" x="-10.4" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="11" x="-8.9" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="10" x="-7.4" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="9" x="-5.9" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="8" x="-4.4" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="7" x="-2.9" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="6" x="-1.4" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="5" x="0.1" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="4" x="1.6" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="3" x="3.1" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="2" x="4.6" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="1" x="6.1" y="6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="22" x="-11.9" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="23" x="-10.4" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="24" x="-8.9" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="25" x="-7.4" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="26" x="-5.9" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="27" x="-4.4" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="28" x="-2.9" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="29" x="-1.4" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="30" x="0.1" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="31" x="1.6" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="32" x="3.1" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="33" x="4.6" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="34" x="6.1" y="-6.7" dx="1.1" dy="2.2" layer="1"/>
+<smd name="21" x="-13.9" y="-5.3" dx="1.1" dy="2.2" layer="1" rot="R90"/>
+<smd name="20" x="-13.9" y="-3.8" dx="1.1" dy="2.2" layer="1" rot="R90"/>
+<smd name="19" x="-13.9" y="-2.3" dx="1.1" dy="2.2" layer="1" rot="R90"/>
+<smd name="18" x="-13.9" y="-0.8" dx="1.1" dy="2.2" layer="1" rot="R90"/>
+<smd name="17" x="-13.9" y="0.7" dx="1.1" dy="2.2" layer="1" rot="R90"/>
+<smd name="16" x="-13.9" y="2.2" dx="1.1" dy="2.2" layer="1" rot="R90"/>
+<smd name="15" x="-13.9" y="3.7" dx="1.1" dy="2.2" layer="1" rot="R90"/>
+<smd name="14" x="-13.9" y="5.2" dx="1.1" dy="2.2" layer="1" rot="R90"/>
+<wire x1="-12.7" y1="6.5" x2="-13.7" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-13.7" y1="6.5" x2="-13.7" y2="5.9" width="0.127" layer="21"/>
+<wire x1="-13.7" y1="-6" x2="-13.7" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-13.7" y1="-6.5" x2="-12.7" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="7.1" y1="-6.5" x2="7.2" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="7.2" y1="-6.5" x2="7.2" y2="6.5" width="0.127" layer="21"/>
+<wire x1="7.2" y1="6.5" x2="7.1" y2="6.5" width="0.127" layer="21"/>
+<wire x1="7.2" y1="6.5" x2="13.7" y2="6.5" width="0.127" layer="21"/>
+<wire x1="13.7" y1="6.5" x2="13.7" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="13.7" y1="-6.5" x2="7.2" y2="-6.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -7670,6 +7723,57 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <circle x="-9.144" y="8.636" radius="0.762" width="0.254" layer="94"/>
+</symbol>
+<symbol name="BLUETOOTHMODULE">
+<wire x1="40.64" y1="15.24" x2="-27.94" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="15.24" x2="-27.94" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-27.94" y1="-15.24" x2="40.64" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="40.64" y1="-15.24" x2="40.64" y2="15.24" width="0.254" layer="94"/>
+<pin name="1:TX" x="22.86" y="20.32" length="middle" rot="R270"/>
+<pin name="2:RX" x="20.32" y="20.32" length="middle" rot="R270"/>
+<pin name="3:CTS" x="17.78" y="20.32" length="middle" rot="R270"/>
+<pin name="4:RTS" x="15.24" y="20.32" length="middle" rot="R270"/>
+<pin name="5:PCM_CLK" x="12.7" y="20.32" length="middle" rot="R270"/>
+<pin name="6:PCM_OUT" x="10.16" y="20.32" length="middle" rot="R270"/>
+<pin name="7:PCM_IN" x="7.62" y="20.32" length="middle" rot="R270"/>
+<pin name="8:PCM_SYNC" x="5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="9:AIO0" x="2.54" y="20.32" length="middle" rot="R270"/>
+<pin name="10:AIO1" x="0" y="20.32" length="middle" rot="R270"/>
+<pin name="11:RST" x="-2.54" y="20.32" length="middle" rot="R270"/>
+<pin name="12:3V3" x="-5.08" y="20.32" length="middle" rot="R270"/>
+<pin name="13:GND" x="-7.62" y="20.32" length="middle" rot="R270"/>
+<pin name="14:NC" x="-33.02" y="10.16" length="middle"/>
+<pin name="15:USB_D-" x="-33.02" y="7.62" length="middle"/>
+<pin name="16:CSB" x="-33.02" y="5.08" length="middle"/>
+<pin name="17:MOSI" x="-33.02" y="2.54" length="middle"/>
+<pin name="18:MISO" x="-33.02" y="-2.54" length="middle"/>
+<pin name="19:CLK" x="-33.02" y="-5.08" length="middle"/>
+<pin name="20:USB_D-" x="-33.02" y="-7.62" length="middle"/>
+<pin name="21:GND" x="-33.02" y="-10.16" length="middle"/>
+<pin name="22:GND" x="-7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="23:PIO0" x="-5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="24:PIO1" x="-2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="25:PIO2" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="26:PIO3" x="2.54" y="-20.32" length="middle" rot="R90"/>
+<pin name="27:PIO4" x="5.08" y="-20.32" length="middle" rot="R90"/>
+<pin name="28:PIO5" x="7.62" y="-20.32" length="middle" rot="R90"/>
+<pin name="29:PIO6" x="10.16" y="-20.32" length="middle" rot="R90"/>
+<pin name="30:PIO7" x="12.7" y="-20.32" length="middle" rot="R90"/>
+<pin name="31:PIO8" x="15.24" y="-20.32" length="middle" rot="R90"/>
+<pin name="32:PIO9" x="17.78" y="-20.32" length="middle" rot="R90"/>
+<pin name="33:PIO10" x="20.32" y="-20.32" length="middle" rot="R90"/>
+<pin name="34:PIO11" x="22.86" y="-20.32" length="middle" rot="R90"/>
+<wire x1="30.48" y1="-12.7" x2="38.1" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-12.7" x2="38.1" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-7.62" x2="30.48" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-7.62" x2="30.48" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="30.48" y1="-2.54" x2="38.1" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="2.54" x2="30.48" y2="2.54" width="0.254" layer="94"/>
+<wire x1="30.48" y1="2.54" x2="30.48" y2="7.62" width="0.254" layer="94"/>
+<wire x1="30.48" y1="7.62" x2="38.1" y2="7.62" width="0.254" layer="94"/>
+<wire x1="38.1" y1="7.62" x2="38.1" y2="12.7" width="0.254" layer="94"/>
+<wire x1="38.1" y1="12.7" x2="30.48" y2="12.7" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11305,6 +11409,54 @@ Standard 16-pin 0.1" header.</description>
 <connect gate="G$1" pin="7:NC" pad="7"/>
 <connect gate="G$1" pin="8:AO2" pad="8"/>
 <connect gate="G$1" pin="9:NC" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BLUETOOTHMODULE">
+<gates>
+<gate name="G$1" symbol="BLUETOOTHMODULE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLUETOOTHMODULE">
+<connects>
+<connect gate="G$1" pin="10:AIO1" pad="10"/>
+<connect gate="G$1" pin="11:RST" pad="11"/>
+<connect gate="G$1" pin="12:3V3" pad="12"/>
+<connect gate="G$1" pin="13:GND" pad="13"/>
+<connect gate="G$1" pin="14:NC" pad="14"/>
+<connect gate="G$1" pin="15:USB_D-" pad="15"/>
+<connect gate="G$1" pin="16:CSB" pad="16"/>
+<connect gate="G$1" pin="17:MOSI" pad="17"/>
+<connect gate="G$1" pin="18:MISO" pad="18"/>
+<connect gate="G$1" pin="19:CLK" pad="19"/>
+<connect gate="G$1" pin="1:TX" pad="1"/>
+<connect gate="G$1" pin="20:USB_D-" pad="20"/>
+<connect gate="G$1" pin="21:GND" pad="21"/>
+<connect gate="G$1" pin="22:GND" pad="22"/>
+<connect gate="G$1" pin="23:PIO0" pad="23"/>
+<connect gate="G$1" pin="24:PIO1" pad="24"/>
+<connect gate="G$1" pin="25:PIO2" pad="25"/>
+<connect gate="G$1" pin="26:PIO3" pad="26"/>
+<connect gate="G$1" pin="27:PIO4" pad="27"/>
+<connect gate="G$1" pin="28:PIO5" pad="28"/>
+<connect gate="G$1" pin="29:PIO6" pad="29"/>
+<connect gate="G$1" pin="2:RX" pad="2"/>
+<connect gate="G$1" pin="30:PIO7" pad="30"/>
+<connect gate="G$1" pin="31:PIO8" pad="31"/>
+<connect gate="G$1" pin="32:PIO9" pad="32"/>
+<connect gate="G$1" pin="33:PIO10" pad="33"/>
+<connect gate="G$1" pin="34:PIO11" pad="34"/>
+<connect gate="G$1" pin="3:CTS" pad="3"/>
+<connect gate="G$1" pin="4:RTS" pad="4"/>
+<connect gate="G$1" pin="5:PCM_CLK" pad="5"/>
+<connect gate="G$1" pin="6:PCM_OUT" pad="6"/>
+<connect gate="G$1" pin="7:PCM_IN" pad="7"/>
+<connect gate="G$1" pin="8:PCM_SYNC" pad="8"/>
+<connect gate="G$1" pin="9:AIO0" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
