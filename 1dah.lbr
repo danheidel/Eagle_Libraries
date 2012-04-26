@@ -5368,8 +5368,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="7.2" y1="6.5" x2="13.7" y2="6.5" width="0.127" layer="21"/>
 <wire x1="13.7" y1="6.5" x2="13.7" y2="-6.5" width="0.127" layer="21"/>
 <wire x1="13.7" y1="-6.5" x2="7.2" y2="-6.5" width="0.127" layer="21"/>
-<<<<<<< HEAD
-=======
 </package>
 <package name="QFN-16">
 <smd name="15" x="-0.33" y="2" dx="0.3" dy="1.2" layer="1"/>
