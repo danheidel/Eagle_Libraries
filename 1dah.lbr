@@ -5478,7 +5478,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="1" x="-0.95" y="-1.2" dx="1" dy="0.4" layer="1" rot="R90"/>
 <smd name="2" x="0" y="-1.2" dx="1" dy="0.4" layer="1" rot="R90"/>
 <smd name="3" x="0.95" y="-1.2" dx="1" dy="0.4" layer="1" rot="R90"/>
->>>>>>> origin/master
 </package>
 </packages>
 <symbols>
@@ -7885,8 +7884,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="30.48" y1="7.62" x2="38.1" y2="7.62" width="0.254" layer="94"/>
 <wire x1="38.1" y1="7.62" x2="38.1" y2="12.7" width="0.254" layer="94"/>
 <wire x1="38.1" y1="12.7" x2="30.48" y2="12.7" width="0.254" layer="94"/>
-<<<<<<< HEAD
-=======
 </symbol>
 <symbol name="ADS1226">
 <description>2 ch, 24-bit ADC</description>
@@ -7968,7 +7965,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-1.4732" y1="-1.6764" x2="-0.8382" y2="-1.6256" width="0.254" layer="94"/>
 <wire x1="-1.1176" y1="-1.2192" x2="-1.1176" y2="-2.0066" width="0.254" layer="94"/>
 <wire x1="0.6096" y1="-1.6256" x2="1.4478" y2="-1.6256" width="0.254" layer="94"/>
->>>>>>> origin/master
 </symbol>
 </symbols>
 <devicesets>
@@ -11655,8 +11651,6 @@ Standard 16-pin 0.1" header.</description>
 </connects>
 <technologies>
 <technology name=""/>
-<<<<<<< HEAD
-=======
 </technologies>
 </device>
 </devices>
@@ -11732,7 +11726,6 @@ Standard 16-pin 0.1" header.</description>
 </connects>
 <technologies>
 <technology name=""/>
->>>>>>> origin/master
 </technologies>
 </device>
 </devices>
