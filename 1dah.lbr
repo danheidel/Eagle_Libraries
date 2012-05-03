@@ -4298,23 +4298,23 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-4" y1="-9" x2="4" y2="-9" width="0.127" layer="48"/>
 <wire x1="-4" y1="-9" x2="-4" y2="-7" width="0.127" layer="48"/>
 <wire x1="4" y1="-9" x2="4" y2="-7" width="0.127" layer="48"/>
-<wire x1="11" y1="1" x2="11" y2="3" width="0.127" layer="48"/>
+<wire x1="11" y1="1.6" x2="11" y2="3" width="0.127" layer="48"/>
 <wire x1="11" y1="3" x2="7" y2="7" width="0.127" layer="48" curve="90"/>
 <wire x1="-7" y1="7" x2="7" y2="7" width="0.127" layer="48"/>
-<wire x1="11" y1="1" x2="10" y2="1" width="0.127" layer="48"/>
-<wire x1="10" y1="1" x2="10.1" y2="-1" width="0.127" layer="48" curve="185.72481"/>
-<wire x1="10.1" y1="-1" x2="11" y2="-1" width="0.127" layer="48"/>
-<wire x1="11" y1="-1" x2="11" y2="-3" width="0.127" layer="48"/>
+<wire x1="11" y1="1.6" x2="10" y2="1.6" width="0.127" layer="48"/>
+<wire x1="10" y1="1.6" x2="10.1" y2="-1.6" width="0.127" layer="48" curve="185.72481"/>
+<wire x1="10.1" y1="-1.6" x2="11" y2="-1.6" width="0.127" layer="48"/>
+<wire x1="11" y1="-1.6" x2="11" y2="-3" width="0.127" layer="48"/>
 <wire x1="11" y1="-3" x2="7" y2="-7" width="0.127" layer="48" curve="-90"/>
 <wire x1="7" y1="-7" x2="-7" y2="-7" width="0.127" layer="48"/>
 <wire x1="-7" y1="-7" x2="-7.1" y2="-7" width="0.127" layer="48"/>
-<wire x1="-11" y1="1" x2="-11" y2="3" width="0.127" layer="48"/>
+<wire x1="-11" y1="1.6" x2="-11" y2="3" width="0.127" layer="48"/>
 <wire x1="-11" y1="3" x2="-7" y2="7" width="0.127" layer="48" curve="-90"/>
-<wire x1="-11" y1="-1" x2="-11" y2="-3" width="0.127" layer="48"/>
+<wire x1="-11" y1="-1.6" x2="-11" y2="-3" width="0.127" layer="48"/>
 <wire x1="-11" y1="-3" x2="-7" y2="-7" width="0.127" layer="48" curve="90"/>
-<wire x1="-11" y1="1" x2="-10.1" y2="1" width="0.127" layer="48"/>
-<wire x1="-10.1" y1="1" x2="-10.1" y2="-1" width="0.127" layer="48" curve="-180"/>
-<wire x1="-10.1" y1="-1" x2="-11" y2="-1" width="0.127" layer="48"/>
+<wire x1="-11" y1="1.6" x2="-10.1" y2="1.6" width="0.127" layer="48"/>
+<wire x1="-10.1" y1="1.6" x2="-10.1" y2="-1.6" width="0.127" layer="48" curve="-180"/>
+<wire x1="-10.1" y1="-1.6" x2="-11" y2="-1.6" width="0.127" layer="48"/>
 <smd name="G-" x="0" y="10.6" dx="2" dy="4" layer="1"/>
 <smd name="B-" x="-3" y="10.6" dx="2" dy="4" layer="1"/>
 <smd name="R-" x="3" y="10.6" dx="2" dy="4" layer="1"/>
@@ -4329,39 +4329,39 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <vertex x="-7" y="7"/>
 <vertex x="7" y="7" curve="-90"/>
 <vertex x="11" y="3"/>
-<vertex x="11" y="1"/>
-<vertex x="10" y="1" curve="180"/>
-<vertex x="10" y="-1"/>
-<vertex x="11" y="-1"/>
+<vertex x="11" y="1.6"/>
+<vertex x="10" y="1.6" curve="180"/>
+<vertex x="10" y="-1.6"/>
+<vertex x="11" y="-1.6"/>
 <vertex x="11" y="-3" curve="-90"/>
 <vertex x="7" y="-7"/>
 <vertex x="-7" y="-7" curve="-90"/>
 <vertex x="-11" y="-3"/>
-<vertex x="-11" y="-1"/>
-<vertex x="-10" y="-1" curve="180"/>
-<vertex x="-10" y="1"/>
-<vertex x="-11" y="1"/>
+<vertex x="-11" y="-1.6"/>
+<vertex x="-10" y="-1.6" curve="180"/>
+<vertex x="-10" y="1.6"/>
+<vertex x="-11" y="1.6"/>
 <vertex x="-11" y="3" curve="-90"/>
 </polygon>
 <polygon width="0.127" layer="29">
-<vertex x="11" y="1"/>
+<vertex x="11" y="1.6"/>
 <vertex x="11" y="3" curve="90"/>
 <vertex x="7" y="7"/>
 <vertex x="-7" y="7" curve="90"/>
 <vertex x="-11" y="3"/>
-<vertex x="-11" y="1"/>
-<vertex x="-10.1" y="1" curve="-90"/>
-<vertex x="-9.1" y="0" curve="-90"/>
-<vertex x="-10.1" y="-1"/>
-<vertex x="-11" y="-1"/>
+<vertex x="-11" y="1.6"/>
+<vertex x="-10.1" y="1.6" curve="-90"/>
+<vertex x="-8.5" y="0" curve="-90"/>
+<vertex x="-10.1" y="-1.6"/>
+<vertex x="-11" y="-1.6"/>
 <vertex x="-11" y="-3" curve="90"/>
 <vertex x="-7" y="-7"/>
 <vertex x="7" y="-7" curve="88.54905"/>
 <vertex x="11" y="-3.1"/>
-<vertex x="11" y="-1"/>
-<vertex x="10" y="-1" curve="-90"/>
-<vertex x="9" y="0" curve="-90"/>
-<vertex x="10" y="1"/>
+<vertex x="11" y="-1.6"/>
+<vertex x="10" y="-1.6" curve="-90"/>
+<vertex x="8.4" y="0" curve="-90"/>
+<vertex x="10" y="1.6"/>
 </polygon>
 </package>
 <package name="MLF-20">
@@ -4369,14 +4369,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="48"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="48"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="48"/>
-<wire x1="-1.4" y1="2" x2="-2" y2="2" width="0.127" layer="21"/>
-<wire x1="-2" y1="2" x2="-2" y2="1.4" width="0.127" layer="21"/>
-<wire x1="1.4" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="1.4" width="0.127" layer="21"/>
-<wire x1="2" y1="-1.4" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="1.4" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.4" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-1.4" y2="-2" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="2.1" x2="-2.1" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="2.1" x2="-2.1" y2="1.4" width="0.127" layer="21"/>
+<wire x1="1.4" y1="2.1" x2="2.1" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="2.1" x2="2.1" y2="1.4" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1.4" x2="2.1" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-2.1" x2="1.4" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-1.4" x2="-2.1" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="-1.4" y2="-2.1" width="0.127" layer="21"/>
 <circle x="-1.6" y="1.6" radius="0.2236" width="0.127" layer="21"/>
 <smd name="PAD" x="0" y="0" dx="2.4" dy="2.4" layer="1"/>
 <smd name="1" x="-1.9" y="1" dx="0.23" dy="0.6" layer="1" rot="R90"/>
@@ -4466,12 +4466,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="48"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="48"/>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="48"/>
-<wire x1="-1.6" y1="2" x2="-2" y2="2" width="0.127" layer="21"/>
-<wire x1="-2" y1="2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-1.6" y2="-2" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="1.6" y2="2" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="2.1" x2="-2.1" y2="2.1" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="2.1" x2="-2.1" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="-1.6" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-2.1" x2="2.1" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-2.1" x2="2.1" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="2.1" x2="1.6" y2="2.1" width="0.127" layer="21"/>
 <circle x="-1.7" y="-1.7" radius="0.1414" width="0.127" layer="21"/>
 <smd name="PAD" x="0" y="0" dx="3.3" dy="2.5" layer="1"/>
 <smd name="1" x="-1.25" y="-1.98" dx="0.25" dy="0.75" layer="1"/>
@@ -4498,14 +4498,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="2.5" y1="3.5" x2="2.5" y2="-3.5" width="0.127" layer="48"/>
 <wire x1="2.5" y1="-3.5" x2="-2.5" y2="-3.5" width="0.127" layer="48"/>
 <wire x1="-2.5" y1="-3.5" x2="-2.5" y2="3.5" width="0.127" layer="48"/>
-<wire x1="-2.5" y1="3.1" x2="-2.5" y2="3.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="3.5" x2="-1.9" y2="3.5" width="0.127" layer="21"/>
-<wire x1="1.9" y1="3.5" x2="2.5" y2="3.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="3.5" x2="2.5" y2="3.1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-3.1" x2="2.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-3.5" x2="1.9" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-3.1" x2="-2.5" y2="-3.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-3.5" x2="-1.9" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="3.1" x2="-2.6" y2="3.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="3.6" x2="-1.9" y2="3.6" width="0.127" layer="21"/>
+<wire x1="1.9" y1="3.6" x2="2.6" y2="3.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="3.6" x2="2.6" y2="3.1" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-3.1" x2="2.6" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-3.6" x2="1.9" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-3.1" x2="-2.6" y2="-3.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="-3.6" x2="-1.9" y2="-3.6" width="0.127" layer="21"/>
 <circle x="-2.2" y="3.2" radius="0.1414" width="0.127" layer="21"/>
 <smd name="PAD" x="0" y="0" dx="5.15" dy="3.15" layer="1" rot="R90"/>
 <smd name="35" x="0" y="3.4" dx="0.25" dy="0.7" layer="1"/>
@@ -5478,6 +5478,99 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="1" x="-0.95" y="-1.2" dx="1" dy="0.4" layer="1" rot="R90"/>
 <smd name="2" x="0" y="-1.2" dx="1" dy="0.4" layer="1" rot="R90"/>
 <smd name="3" x="0.95" y="-1.2" dx="1" dy="0.4" layer="1" rot="R90"/>
+</package>
+<package name="QFN-32">
+<wire x1="-2.5" y1="2.5" x2="-1.9" y2="2.5" width="0.127" layer="48"/>
+<wire x1="-1.9" y1="2.5" x2="1.9" y2="2.5" width="0.127" layer="48"/>
+<wire x1="1.9" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="48"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="1.9" width="0.127" layer="48"/>
+<wire x1="2.5" y1="1.9" x2="2.5" y2="-1.9" width="0.127" layer="48"/>
+<wire x1="2.5" y1="-1.9" x2="2.5" y2="-2.5" width="0.127" layer="48"/>
+<wire x1="2.5" y1="-2.5" x2="1.9" y2="-2.5" width="0.127" layer="48"/>
+<wire x1="1.9" y1="-2.5" x2="-1.9" y2="-2.5" width="0.127" layer="48"/>
+<wire x1="-1.9" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="48"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-1.9" width="0.127" layer="48"/>
+<wire x1="-2.5" y1="-1.9" x2="-2.5" y2="1.9" width="0.127" layer="48"/>
+<wire x1="-2.5" y1="1.9" x2="-2.5" y2="2.5" width="0.127" layer="48"/>
+<wire x1="-1.9" y1="2.5" x2="-2.5" y2="1.9" width="0.127" layer="48"/>
+<wire x1="-2.5" y1="-1.9" x2="-1.9" y2="-2.5" width="0.127" layer="48"/>
+<wire x1="1.9" y1="-2.5" x2="2.5" y2="-1.9" width="0.127" layer="48"/>
+<wire x1="1.9" y1="2.5" x2="2.5" y2="1.9" width="0.127" layer="48"/>
+<wire x1="0" y1="-2.8" x2="0" y2="2.8" width="0" layer="48"/>
+<wire x1="-2.8" y1="0" x2="2.8" y2="0" width="0" layer="48"/>
+<smd name="13" x="0.25" y="-2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="12" x="-0.25" y="-2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="11" x="-0.75" y="-2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="10" x="-1.25" y="-2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="9" x="-1.75" y="-2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="14" x="0.75" y="-2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="15" x="1.25" y="-2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="16" x="1.75" y="-2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="28" x="0.25" y="2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="29" x="-0.25" y="2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="30" x="-0.75" y="2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="31" x="-1.25" y="2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="32" x="-1.75" y="2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="27" x="0.75" y="2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="26" x="1.25" y="2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="25" x="1.75" y="2.4" dx="0.2" dy="0.6" layer="1"/>
+<smd name="PAD" x="0" y="0" dx="3.1" dy="3.1" layer="1"/>
+<smd name="4" x="-2.4" y="0.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="-2.4" y="-0.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="-2.4" y="-0.75" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="-2.4" y="-1.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="-2.4" y="-1.75" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="-2.4" y="0.75" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-2.4" y="1.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="1" x="-2.4" y="1.75" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="21" x="2.4" y="0.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="20" x="2.4" y="-0.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="19" x="2.4" y="-0.75" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="18" x="2.4" y="-1.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="17" x="2.4" y="-1.75" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="22" x="2.4" y="0.75" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="23" x="2.4" y="1.25" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="24" x="2.4" y="1.75" dx="0.2" dy="0.6" layer="1" rot="R90"/>
+<polygon width="0.254" layer="21">
+<vertex x="-2.6" y="2.1"/>
+<vertex x="-2.1" y="2.6"/>
+<vertex x="-2.1" y="2.7"/>
+<vertex x="-2.7" y="2.7"/>
+<vertex x="-2.7" y="2.1"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="-2.7" y="2.1"/>
+<vertex x="-2.9" y="2.1"/>
+<vertex x="-2.9" y="2.9"/>
+<vertex x="-2.1" y="2.9"/>
+<vertex x="-2.1" y="2.6"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="2.1" y="2.6"/>
+<vertex x="2.6" y="2.1"/>
+<vertex x="2.7" y="2.1"/>
+<vertex x="2.7" y="2.7"/>
+<vertex x="2.1" y="2.7"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="-2.6" y="-2.1"/>
+<vertex x="-2.1" y="-2.6"/>
+<vertex x="-2.1" y="-2.7"/>
+<vertex x="-2.7" y="-2.7"/>
+<vertex x="-2.7" y="-2.1"/>
+</polygon>
+<polygon width="0.254" layer="21">
+<vertex x="2.1" y="-2.6"/>
+<vertex x="2.6" y="-2.1"/>
+<vertex x="2.7" y="-2.1"/>
+<vertex x="2.7" y="-2.7"/>
+<vertex x="2.1" y="-2.7"/>
+</polygon>
+<pad name="P1" x="-0.9" y="0.9" drill="0.5"/>
+<pad name="P2" x="0.9" y="0.9" drill="0.5"/>
+<pad name="P3" x="0.9" y="-0.9" drill="0.5"/>
+<pad name="P4" x="-0.9" y="-0.9" drill="0.5"/>
+<pad name="P5" x="0" y="0" drill="0.5"/>
 </package>
 </packages>
 <symbols>
@@ -9677,12 +9770,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </device>
 </devices>
 </deviceset>
-<deviceset name="ATMEGA328TQFP">
+<deviceset name="ATMEGA328SMD">
 <gates>
 <gate name="G$1" symbol="ATMEGA328TQFP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="TQFP32">
+<device name="-TQFP" package="TQFP32">
 <connects>
 <connect gate="G$1" pin="10:PD6/PCINT22/OC0A/AIN0" pad="10"/>
 <connect gate="G$1" pin="11:PD7/PCINT23/AIN1" pad="11"/>
@@ -9710,6 +9803,45 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <connect gate="G$1" pin="31:PD1/TXD/PCINT17" pad="31"/>
 <connect gate="G$1" pin="32:PD2/INT0/PCINT18" pad="32"/>
 <connect gate="G$1" pin="3:GND" pad="3"/>
+<connect gate="G$1" pin="4:VCC" pad="4"/>
+<connect gate="G$1" pin="5:GND" pad="5"/>
+<connect gate="G$1" pin="6:VCC" pad="6"/>
+<connect gate="G$1" pin="7:PB6/PCINT6/XTAL1/TOSC1" pad="7"/>
+<connect gate="G$1" pin="8:PB7/PCINT7/XTAL2/TOSC2" pad="8"/>
+<connect gate="G$1" pin="9:PD5/PCINT21/OC0B/T1" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-QFN" package="QFN-32">
+<connects>
+<connect gate="G$1" pin="10:PD6/PCINT22/OC0A/AIN0" pad="10"/>
+<connect gate="G$1" pin="11:PD7/PCINT23/AIN1" pad="11"/>
+<connect gate="G$1" pin="12:PB0/PCINT0/CLK0/ICP1" pad="12"/>
+<connect gate="G$1" pin="13:PB1/PCINT1/OC1A" pad="13"/>
+<connect gate="G$1" pin="14:PB2/PCINT2/SS/OC1B" pad="14"/>
+<connect gate="G$1" pin="15:PB3/PCINT3/OC2A/MOSI" pad="15"/>
+<connect gate="G$1" pin="16:PB4/PCINT4/MISO" pad="16"/>
+<connect gate="G$1" pin="17:PB5/SCK/PCINT5" pad="17"/>
+<connect gate="G$1" pin="18:AVCC" pad="18"/>
+<connect gate="G$1" pin="19:ADC6" pad="19"/>
+<connect gate="G$1" pin="1:PD3/PCINT19/OC2B/INT1" pad="1"/>
+<connect gate="G$1" pin="20:AREF" pad="20"/>
+<connect gate="G$1" pin="21:GND" pad="21"/>
+<connect gate="G$1" pin="22:ADC7" pad="22"/>
+<connect gate="G$1" pin="23:PC0/ADC0/PCINT8" pad="23"/>
+<connect gate="G$1" pin="24:PC1/ADC1/PCINT9" pad="24"/>
+<connect gate="G$1" pin="25:PC2/ADC2/PCINT10" pad="25"/>
+<connect gate="G$1" pin="26:PC3/ADC3/PCINT11" pad="26"/>
+<connect gate="G$1" pin="27:PC4/ADC4/SDA/PCINT12" pad="27"/>
+<connect gate="G$1" pin="28:PC5/ADC5/SCL/PCINT13" pad="28"/>
+<connect gate="G$1" pin="29:PC6/RESET/PCINT14" pad="29"/>
+<connect gate="G$1" pin="2:PD4/PCINT20/XCK/T0" pad="2"/>
+<connect gate="G$1" pin="30:PD0/RXD/PCINT16" pad="30"/>
+<connect gate="G$1" pin="31:PD1/TXD/PCINT17" pad="31"/>
+<connect gate="G$1" pin="32:PD2/INT0/PCINT18" pad="32"/>
+<connect gate="G$1" pin="3:GND" pad="3 P1 P2 P3 P4 P5 PAD"/>
 <connect gate="G$1" pin="4:VCC" pad="4"/>
 <connect gate="G$1" pin="5:GND" pad="5"/>
 <connect gate="G$1" pin="6:VCC" pad="6"/>
