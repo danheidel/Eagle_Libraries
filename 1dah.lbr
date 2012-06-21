@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6102,6 +6102,63 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-2.45" y1="2.95" x2="-1.35" y2="2.95" width="0.254" layer="21"/>
 <wire x1="-1.35" y1="2.95" x2="-1.35" y2="2.7" width="0.254" layer="21"/>
 </package>
+<package name="MRF24WB0M">
+<wire x1="-10.5" y1="15.5" x2="10.5" y2="15.5" width="0.127" layer="48"/>
+<wire x1="10.5" y1="15.5" x2="10.5" y2="-15.5" width="0.127" layer="48"/>
+<wire x1="10.5" y1="-15.5" x2="-10.5" y2="-15.5" width="0.127" layer="48"/>
+<wire x1="-10.5" y1="-15.5" x2="-10.5" y2="15.5" width="0.127" layer="48"/>
+<wire x1="3.9" y1="-24.2" x2="-21.1" y2="-24.2" width="0.127" layer="48"/>
+<wire x1="-21.1" y1="-24.2" x2="-21.1" y2="-4.7" width="0.127" layer="48"/>
+<wire x1="-21.1" y1="-4.7" x2="3.9" y2="-4.7" width="0.127" layer="48"/>
+<wire x1="3.9" y1="-4.7" x2="3.9" y2="-24.2" width="0.127" layer="48"/>
+<smd name="36" x="10.4" y="13.7" dx="1" dy="0.8" layer="1"/>
+<smd name="35" x="10.4" y="12.43" dx="1" dy="0.8" layer="1"/>
+<smd name="34" x="10.4" y="11.16" dx="1" dy="0.8" layer="1"/>
+<smd name="33" x="10.4" y="9.89" dx="1" dy="0.8" layer="1"/>
+<smd name="32" x="10.4" y="8.62" dx="1" dy="0.8" layer="1"/>
+<smd name="31" x="10.4" y="7.35" dx="1" dy="0.8" layer="1"/>
+<smd name="30" x="10.4" y="6.08" dx="1" dy="0.8" layer="1"/>
+<smd name="29" x="10.4" y="4.81" dx="1" dy="0.8" layer="1"/>
+<smd name="28" x="10.4" y="3.54" dx="1" dy="0.8" layer="1"/>
+<smd name="27" x="10.4" y="2.27" dx="1" dy="0.8" layer="1"/>
+<smd name="26" x="10.4" y="1" dx="1" dy="0.8" layer="1"/>
+<smd name="25" x="10.4" y="-0.27" dx="1" dy="0.8" layer="1"/>
+<smd name="24" x="10.4" y="-1.54" dx="1" dy="0.8" layer="1"/>
+<smd name="23" x="10.4" y="-2.81" dx="1" dy="0.8" layer="1"/>
+<smd name="22" x="10.4" y="-4.08" dx="1" dy="0.8" layer="1"/>
+<smd name="21" x="10.4" y="-5.35" dx="1" dy="0.8" layer="1"/>
+<smd name="20" x="10.4" y="-6.62" dx="1" dy="0.8" layer="1"/>
+<smd name="19" x="10.4" y="-7.89" dx="1" dy="0.8" layer="1"/>
+<smd name="1" x="-10.4" y="13.7" dx="1" dy="0.8" layer="1"/>
+<smd name="2" x="-10.4" y="12.43" dx="1" dy="0.8" layer="1"/>
+<smd name="3" x="-10.4" y="11.16" dx="1" dy="0.8" layer="1"/>
+<smd name="4" x="-10.4" y="9.89" dx="1" dy="0.8" layer="1"/>
+<smd name="5" x="-10.4" y="8.62" dx="1" dy="0.8" layer="1"/>
+<smd name="6" x="-10.4" y="7.35" dx="1" dy="0.8" layer="1"/>
+<smd name="7" x="-10.4" y="6.08" dx="1" dy="0.8" layer="1"/>
+<smd name="8" x="-10.4" y="4.81" dx="1" dy="0.8" layer="1"/>
+<smd name="9" x="-10.4" y="3.54" dx="1" dy="0.8" layer="1"/>
+<smd name="10" x="-10.4" y="2.27" dx="1" dy="0.8" layer="1"/>
+<smd name="11" x="-10.4" y="1" dx="1" dy="0.8" layer="1"/>
+<smd name="12" x="-10.4" y="-0.27" dx="1" dy="0.8" layer="1"/>
+<smd name="13" x="-10.4" y="-1.54" dx="1" dy="0.8" layer="1"/>
+<smd name="14" x="-10.4" y="-2.81" dx="1" dy="0.8" layer="1"/>
+<smd name="15" x="-10.4" y="-4.08" dx="1" dy="0.8" layer="1"/>
+<smd name="16" x="-10.4" y="-5.35" dx="1" dy="0.8" layer="1"/>
+<smd name="17" x="-10.4" y="-6.62" dx="1" dy="0.8" layer="1"/>
+<smd name="18" x="-10.4" y="-7.89" dx="1" dy="0.8" layer="1"/>
+<wire x1="-10.7" y1="14.3" x2="-10.7" y2="15.7" width="0.127" layer="21"/>
+<wire x1="-10.7" y1="15.7" x2="10.7" y2="15.7" width="0.127" layer="21"/>
+<wire x1="10.7" y1="15.7" x2="10.7" y2="14.3" width="0.127" layer="21"/>
+<wire x1="-10.7" y1="-8.6" x2="-10.7" y2="-15.7" width="0.127" layer="21"/>
+<wire x1="-10.7" y1="-15.7" x2="10.7" y2="-15.7" width="0.127" layer="21"/>
+<wire x1="10.7" y1="-15.7" x2="10.7" y2="-8.5" width="0.127" layer="21"/>
+<circle x="7.9" y="-13.1" radius="1" width="0.127" layer="48"/>
+<wire x1="-9.3" y1="14.4" x2="9.3" y2="14.4" width="0.127" layer="48"/>
+<wire x1="9.3" y1="14.4" x2="9.3" y2="-10.3" width="0.127" layer="48"/>
+<wire x1="9.3" y1="-10.3" x2="-9.3" y2="-10.3" width="0.127" layer="48"/>
+<wire x1="-9.3" y1="-10.3" x2="-9.3" y2="14.4" width="0.127" layer="48"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP|HEF4051BTD">
@@ -8784,6 +8841,121 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="17.78" y1="-22.86" x2="-17.78" y2="-22.86" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
 <circle x="-12.7" y="17.78" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MRF24WB0M">
+<pin name="1:GND" x="-22.86" y="20.32" length="middle"/>
+<pin name="2:NC" x="-22.86" y="17.78" length="middle"/>
+<pin name="3:JTAGTDO" x="-22.86" y="15.24" length="middle"/>
+<pin name="4:JTAGTCK" x="-22.86" y="12.7" length="middle"/>
+<pin name="5:JTAGTMS" x="-22.86" y="10.16" length="middle"/>
+<pin name="6:JTAGTDI" x="-22.86" y="7.62" length="middle"/>
+<pin name="7:RESET" x="-22.86" y="5.08" length="middle"/>
+<pin name="8:NC" x="-22.86" y="2.54" length="middle"/>
+<pin name="9:JTAGRST" x="-22.86" y="0" length="middle"/>
+<pin name="10:GND" x="-22.86" y="-2.54" length="middle"/>
+<pin name="11:NC" x="-22.86" y="-5.08" length="middle"/>
+<pin name="12:NC" x="-22.86" y="-7.62" length="middle"/>
+<pin name="13:NC" x="-22.86" y="-10.16" length="middle"/>
+<pin name="14:NC" x="-22.86" y="-12.7" length="middle"/>
+<pin name="15:NC" x="-22.86" y="-15.24" length="middle"/>
+<pin name="16:WP" x="-22.86" y="-17.78" length="middle"/>
+<pin name="17:VDD" x="-22.86" y="-20.32" length="middle"/>
+<pin name="18:GND" x="-22.86" y="-22.86" length="middle"/>
+<pin name="19:GND" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="20:HIBERNATE" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="21:JTAGEN" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="22:NC" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="23:CS" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="24:NC" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="25:GND" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="26:DEBUGRX" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="27:DEBUGTX" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="28:GND" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="29:VDD" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="30:GND" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="31:NC" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="32:SDO" x="22.86" y="10.16" length="middle" rot="R180"/>
+<pin name="33:INT" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="34:SCK" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="35:SDI" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="36:GND" x="22.86" y="20.32" length="middle" rot="R180"/>
+<wire x1="-17.78" y1="22.86" x2="-17.78" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-33.02" x2="17.78" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-33.02" x2="17.78" y2="22.86" width="0.254" layer="94"/>
+<wire x1="17.78" y1="22.86" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<circle x="10.16" y="-27.94" radius="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PIC33EP256MU806">
+<pin name="1:AN29/PWM3H/PMD5/RP85/RE5" x="-58.42" y="40.64" length="middle"/>
+<pin name="2:AN30/PWM4L/PMD6/RPI86/RE6" x="-58.42" y="38.1" length="middle"/>
+<pin name="4:C1IN3-/SCK2/PMA5/RP118/RG6" x="-58.42" y="33.02" length="middle"/>
+<pin name="3:AN31/PWM4H/PMD7/RP87/RE7" x="-58.42" y="35.56" length="middle"/>
+<pin name="5:C1IN1-/SDI2/PMA4/RPI119/RG7" x="-58.42" y="30.48" length="middle"/>
+<pin name="6:C2IN3-/SDO2/PMA3/RP120/RG8" x="-58.42" y="27.94" length="middle"/>
+<pin name="7::MCLR" x="-58.42" y="25.4" length="middle"/>
+<pin name="8:C2IN1-/PMA2/RPI121/RG9" x="-58.42" y="22.86" length="middle"/>
+<pin name="9:GND" x="-58.42" y="20.32" length="middle"/>
+<pin name="10:VDD" x="-58.42" y="17.78" length="middle"/>
+<pin name="11:AN5/C1IN1+/VBUSON/VBUSST/RP137/RB5" x="-58.42" y="15.24" length="middle"/>
+<pin name="12:AN4/C1IN2-/USBOEN/RPI36/RB4" x="-58.42" y="12.7" length="middle"/>
+<pin name="13:AN3/C2IN1+/VPIO/RPI35/RB3" x="-58.42" y="10.16" length="middle"/>
+<pin name="14:AN2/C2IN2-/VMIO/RPI34/RB2" x="-58.42" y="7.62" length="middle"/>
+<pin name="15:PGEC3/AN1/VREF-/RPI33/RB1" x="-58.42" y="5.08" length="middle"/>
+<pin name="16:PGED3/AN0/VREF+/RPI32/RB0" x="-58.42" y="2.54" length="middle"/>
+<pin name="17:PGEC1/AN6/RPI38/RB6" x="-48.26" y="-53.34" length="middle" rot="R90"/>
+<pin name="18:PGED1/AN7/RPI39/RB7" x="-45.72" y="-53.34" length="middle" rot="R90"/>
+<pin name="20:AGND" x="-40.64" y="-53.34" length="middle" rot="R90"/>
+<pin name="19:AVDD" x="-43.18" y="-53.34" length="middle" rot="R90"/>
+<pin name="21:AN8/PMA6/RPI40/RB8" x="-38.1" y="-53.34" length="middle" rot="R90"/>
+<pin name="22:AN9/PMA7/RPI41/RB9" x="-35.56" y="-53.34" length="middle" rot="R90"/>
+<pin name="23:TMS/AN10/CVREF/PMA13/RPI42/RB10" x="-33.02" y="-53.34" length="middle" rot="R90"/>
+<pin name="24:TDO/AN11/PMA12/RPI43/RB11" x="-30.48" y="-53.34" length="middle" rot="R90"/>
+<pin name="25:GND" x="-27.94" y="-53.34" length="middle" rot="R90"/>
+<pin name="26:VDD" x="-25.4" y="-53.34" length="middle" rot="R90"/>
+<pin name="27:TCK/AN12/PMA11/RPI44/RB12" x="-22.86" y="-53.34" length="middle" rot="R90"/>
+<pin name="28:TDI/AN13/PMA10/RPI45/RB13" x="-20.32" y="-53.34" length="middle" rot="R90"/>
+<pin name="29:AN14/PMA1/RPI46/RB14" x="-17.78" y="-53.34" length="middle" rot="R90"/>
+<pin name="30:AN15/PMA0/RPI47/RB15" x="-15.24" y="-53.34" length="middle" rot="R90"/>
+<pin name="31::SDA2/PMA9/RP100/RF4" x="-12.7" y="-53.34" length="middle" rot="R90"/>
+<pin name="32::SCL2/PMA8/RP101/RF5" x="-10.16" y="-53.34" length="middle" rot="R90"/>
+<pin name="33::USBID/RP99/RF3" x="53.34" y="-43.18" length="middle" rot="R180"/>
+<pin name="34::VBUS" x="53.34" y="-40.64" length="middle" rot="R180"/>
+<pin name="36:D-/RG3" x="53.34" y="-35.56" length="middle" rot="R180"/>
+<pin name="35:VUSB3V3" x="53.34" y="-38.1" length="middle" rot="R180"/>
+<pin name="37:D+/RG2" x="53.34" y="-33.02" length="middle" rot="R180"/>
+<pin name="38:VDD" x="53.34" y="-30.48" length="middle" rot="R180"/>
+<pin name="39:OSC1/RPI60/RC12" x="53.34" y="-27.94" length="middle" rot="R180"/>
+<pin name="40:OSC2/CLKO/RC15" x="53.34" y="-25.4" length="middle" rot="R180"/>
+<pin name="41:GND" x="53.34" y="-22.86" length="middle" rot="R180"/>
+<pin name="42::RTCC/DMLN/RPI72/RD8" x="53.34" y="-20.32" length="middle" rot="R180"/>
+<pin name="43::ASDA1/DPLN/RPI73/RD9" x="53.34" y="-17.78" length="middle" rot="R180"/>
+<pin name="44::ASCL1/PMCS2/RPI74/RD10" x="53.34" y="-15.24" length="middle" rot="R180"/>
+<pin name="45::PMCS1/RPI75/RD11" x="53.34" y="-12.7" length="middle" rot="R180"/>
+<pin name="46::INT0/DMH/RP64/RD0" x="53.34" y="-10.16" length="middle" rot="R180"/>
+<pin name="47:PGED2/SOSCI/C3IN3-/RPI61/RC13" x="53.34" y="-7.62" length="middle" rot="R180"/>
+<pin name="48:PGEC2/SOSCO/C3IN1-/T1CK/RPI62/RC14" x="53.34" y="-5.08" length="middle" rot="R180"/>
+<pin name="49::VCPCONRP65/RD1" x="43.18" y="50.8" length="middle" rot="R270"/>
+<pin name="50::DPH/RP66/RD2" x="40.64" y="50.8" length="middle" rot="R270"/>
+<pin name="52::PMWR/RP68/RD4" x="35.56" y="50.8" length="middle" rot="R270"/>
+<pin name="51::PMBE/RP67/RD3" x="38.1" y="50.8" length="middle" rot="R270"/>
+<pin name="53::PMRD/RP69/RD5" x="33.02" y="50.8" length="middle" rot="R270"/>
+<pin name="54:C3IN2-/RP70/RD6" x="30.48" y="50.8" length="middle" rot="R270"/>
+<pin name="55:C3IN1+/VCMPST3/RP71/RD7" x="27.94" y="50.8" length="middle" rot="R270"/>
+<pin name="56:VCAP" x="25.4" y="50.8" length="middle" rot="R270"/>
+<pin name="57:VDD" x="22.86" y="50.8" length="middle" rot="R270"/>
+<pin name="58::VCMPST1RP96/RF0" x="20.32" y="50.8" length="middle" rot="R270"/>
+<pin name="59::VCMPST2/RP97/RF1" x="17.78" y="50.8" length="middle" rot="R270"/>
+<pin name="60:AN24/PWM1L/PMD0/RP80/RE0" x="15.24" y="50.8" length="middle" rot="R270"/>
+<pin name="61:AN25/PWM1H/PMD1/RPI81/RE1" x="12.7" y="50.8" length="middle" rot="R270"/>
+<pin name="62:AN26/PWM2L/PMD2/RP82/RE2" x="10.16" y="50.8" length="middle" rot="R270"/>
+<pin name="63:AN27/PWM2H/PMD3/RPI83/RE3" x="7.62" y="50.8" length="middle" rot="R270"/>
+<pin name="64:AN28/PWM3L/PMD4/RP84/RE4" x="5.08" y="50.8" length="middle" rot="R270"/>
+<wire x1="-53.34" y1="-48.26" x2="-53.34" y2="45.72" width="0.254" layer="94"/>
+<wire x1="-53.34" y1="45.72" x2="48.26" y2="45.72" width="0.254" layer="94"/>
+<wire x1="48.26" y1="45.72" x2="48.26" y2="-48.26" width="0.254" layer="94"/>
+<wire x1="48.26" y1="-48.26" x2="-53.34" y2="-48.26" width="0.254" layer="94"/>
+<circle x="-50.8" y="43.18" radius="1.54501875" width="0.254" layer="94"/>
+<text x="20.32" y="0" size="1.27" layer="97">:: -&gt; 5V tolerant</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -12787,6 +12959,135 @@ Monitors voltage, current and temp of up to 4 power supply channels and is contr
 <connect gate="G$1" pin="7:AUXFAULTB" pad="7"/>
 <connect gate="G$1" pin="8:DNC" pad="8"/>
 <connect gate="G$1" pin="9:VIN_SNS" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MRF24WB0M">
+<description>WiFi adapter</description>
+<gates>
+<gate name="G$1" symbol="MRF24WB0M" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MRF24WB0M">
+<connects>
+<connect gate="G$1" pin="10:GND" pad="10"/>
+<connect gate="G$1" pin="11:NC" pad="11"/>
+<connect gate="G$1" pin="12:NC" pad="12"/>
+<connect gate="G$1" pin="13:NC" pad="13"/>
+<connect gate="G$1" pin="14:NC" pad="14"/>
+<connect gate="G$1" pin="15:NC" pad="15"/>
+<connect gate="G$1" pin="16:WP" pad="16"/>
+<connect gate="G$1" pin="17:VDD" pad="17"/>
+<connect gate="G$1" pin="18:GND" pad="18"/>
+<connect gate="G$1" pin="19:GND" pad="19"/>
+<connect gate="G$1" pin="1:GND" pad="1"/>
+<connect gate="G$1" pin="20:HIBERNATE" pad="20"/>
+<connect gate="G$1" pin="21:JTAGEN" pad="21"/>
+<connect gate="G$1" pin="22:NC" pad="22"/>
+<connect gate="G$1" pin="23:CS" pad="23"/>
+<connect gate="G$1" pin="24:NC" pad="24"/>
+<connect gate="G$1" pin="25:GND" pad="25"/>
+<connect gate="G$1" pin="26:DEBUGRX" pad="26"/>
+<connect gate="G$1" pin="27:DEBUGTX" pad="27"/>
+<connect gate="G$1" pin="28:GND" pad="28"/>
+<connect gate="G$1" pin="29:VDD" pad="29"/>
+<connect gate="G$1" pin="2:NC" pad="2"/>
+<connect gate="G$1" pin="30:GND" pad="30"/>
+<connect gate="G$1" pin="31:NC" pad="31"/>
+<connect gate="G$1" pin="32:SDO" pad="32"/>
+<connect gate="G$1" pin="33:INT" pad="33"/>
+<connect gate="G$1" pin="34:SCK" pad="34"/>
+<connect gate="G$1" pin="35:SDI" pad="35"/>
+<connect gate="G$1" pin="36:GND" pad="36"/>
+<connect gate="G$1" pin="3:JTAGTDO" pad="3"/>
+<connect gate="G$1" pin="4:JTAGTCK" pad="4"/>
+<connect gate="G$1" pin="5:JTAGTMS" pad="5"/>
+<connect gate="G$1" pin="6:JTAGTDI" pad="6"/>
+<connect gate="G$1" pin="7:RESET" pad="7"/>
+<connect gate="G$1" pin="8:NC" pad="8"/>
+<connect gate="G$1" pin="9:JTAGRST" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PIC33EP256MU806">
+<gates>
+<gate name="G$1" symbol="PIC33EP256MU806" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-64">
+<connects>
+<connect gate="G$1" pin="10:VDD" pad="10"/>
+<connect gate="G$1" pin="11:AN5/C1IN1+/VBUSON/VBUSST/RP137/RB5" pad="11"/>
+<connect gate="G$1" pin="12:AN4/C1IN2-/USBOEN/RPI36/RB4" pad="12"/>
+<connect gate="G$1" pin="13:AN3/C2IN1+/VPIO/RPI35/RB3" pad="13"/>
+<connect gate="G$1" pin="14:AN2/C2IN2-/VMIO/RPI34/RB2" pad="14"/>
+<connect gate="G$1" pin="15:PGEC3/AN1/VREF-/RPI33/RB1" pad="15"/>
+<connect gate="G$1" pin="16:PGED3/AN0/VREF+/RPI32/RB0" pad="16"/>
+<connect gate="G$1" pin="17:PGEC1/AN6/RPI38/RB6" pad="17"/>
+<connect gate="G$1" pin="18:PGED1/AN7/RPI39/RB7" pad="18"/>
+<connect gate="G$1" pin="19:AVDD" pad="19"/>
+<connect gate="G$1" pin="1:AN29/PWM3H/PMD5/RP85/RE5" pad="1"/>
+<connect gate="G$1" pin="20:AGND" pad="20"/>
+<connect gate="G$1" pin="21:AN8/PMA6/RPI40/RB8" pad="21"/>
+<connect gate="G$1" pin="22:AN9/PMA7/RPI41/RB9" pad="22"/>
+<connect gate="G$1" pin="23:TMS/AN10/CVREF/PMA13/RPI42/RB10" pad="23"/>
+<connect gate="G$1" pin="24:TDO/AN11/PMA12/RPI43/RB11" pad="24"/>
+<connect gate="G$1" pin="25:GND" pad="25"/>
+<connect gate="G$1" pin="26:VDD" pad="26"/>
+<connect gate="G$1" pin="27:TCK/AN12/PMA11/RPI44/RB12" pad="27"/>
+<connect gate="G$1" pin="28:TDI/AN13/PMA10/RPI45/RB13" pad="28"/>
+<connect gate="G$1" pin="29:AN14/PMA1/RPI46/RB14" pad="29"/>
+<connect gate="G$1" pin="2:AN30/PWM4L/PMD6/RPI86/RE6" pad="2"/>
+<connect gate="G$1" pin="30:AN15/PMA0/RPI47/RB15" pad="30"/>
+<connect gate="G$1" pin="31::SDA2/PMA9/RP100/RF4" pad="31"/>
+<connect gate="G$1" pin="32::SCL2/PMA8/RP101/RF5" pad="32"/>
+<connect gate="G$1" pin="33::USBID/RP99/RF3" pad="33"/>
+<connect gate="G$1" pin="34::VBUS" pad="34"/>
+<connect gate="G$1" pin="35:VUSB3V3" pad="35"/>
+<connect gate="G$1" pin="36:D-/RG3" pad="36"/>
+<connect gate="G$1" pin="37:D+/RG2" pad="37"/>
+<connect gate="G$1" pin="38:VDD" pad="38"/>
+<connect gate="G$1" pin="39:OSC1/RPI60/RC12" pad="39"/>
+<connect gate="G$1" pin="3:AN31/PWM4H/PMD7/RP87/RE7" pad="3"/>
+<connect gate="G$1" pin="40:OSC2/CLKO/RC15" pad="40"/>
+<connect gate="G$1" pin="41:GND" pad="41"/>
+<connect gate="G$1" pin="42::RTCC/DMLN/RPI72/RD8" pad="42"/>
+<connect gate="G$1" pin="43::ASDA1/DPLN/RPI73/RD9" pad="43"/>
+<connect gate="G$1" pin="44::ASCL1/PMCS2/RPI74/RD10" pad="44"/>
+<connect gate="G$1" pin="45::PMCS1/RPI75/RD11" pad="45"/>
+<connect gate="G$1" pin="46::INT0/DMH/RP64/RD0" pad="46"/>
+<connect gate="G$1" pin="47:PGED2/SOSCI/C3IN3-/RPI61/RC13" pad="47"/>
+<connect gate="G$1" pin="48:PGEC2/SOSCO/C3IN1-/T1CK/RPI62/RC14" pad="48"/>
+<connect gate="G$1" pin="49::VCPCONRP65/RD1" pad="49"/>
+<connect gate="G$1" pin="4:C1IN3-/SCK2/PMA5/RP118/RG6" pad="4"/>
+<connect gate="G$1" pin="50::DPH/RP66/RD2" pad="50"/>
+<connect gate="G$1" pin="51::PMBE/RP67/RD3" pad="51"/>
+<connect gate="G$1" pin="52::PMWR/RP68/RD4" pad="52"/>
+<connect gate="G$1" pin="53::PMRD/RP69/RD5" pad="53"/>
+<connect gate="G$1" pin="54:C3IN2-/RP70/RD6" pad="54"/>
+<connect gate="G$1" pin="55:C3IN1+/VCMPST3/RP71/RD7" pad="55"/>
+<connect gate="G$1" pin="56:VCAP" pad="56"/>
+<connect gate="G$1" pin="57:VDD" pad="57"/>
+<connect gate="G$1" pin="58::VCMPST1RP96/RF0" pad="58"/>
+<connect gate="G$1" pin="59::VCMPST2/RP97/RF1" pad="59"/>
+<connect gate="G$1" pin="5:C1IN1-/SDI2/PMA4/RPI119/RG7" pad="5"/>
+<connect gate="G$1" pin="60:AN24/PWM1L/PMD0/RP80/RE0" pad="60"/>
+<connect gate="G$1" pin="61:AN25/PWM1H/PMD1/RPI81/RE1" pad="61"/>
+<connect gate="G$1" pin="62:AN26/PWM2L/PMD2/RP82/RE2" pad="62"/>
+<connect gate="G$1" pin="63:AN27/PWM2H/PMD3/RPI83/RE3" pad="63"/>
+<connect gate="G$1" pin="64:AN28/PWM3L/PMD4/RP84/RE4" pad="64"/>
+<connect gate="G$1" pin="6:C2IN3-/SDO2/PMA3/RP120/RG8" pad="6"/>
+<connect gate="G$1" pin="7::MCLR" pad="7"/>
+<connect gate="G$1" pin="8:C2IN1-/PMA2/RPI121/RG9" pad="8"/>
+<connect gate="G$1" pin="9:GND" pad="9 PAD"/>
 </connects>
 <technologies>
 <technology name=""/>
