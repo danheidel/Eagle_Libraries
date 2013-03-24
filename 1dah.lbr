@@ -6631,6 +6631,58 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="1" x="-1.47" y="0" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 <smd name="3" x="1.47" y="0" dx="2.54" dy="1.27" layer="1" rot="R90"/>
 </package>
+<package name="XTAL5X3.2">
+<description>5 x 3.2mm crystal package</description>
+<wire x1="2.5" y1="1.6" x2="-2.5" y2="1.6" width="0.127" layer="48"/>
+<wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.127" layer="48"/>
+<wire x1="-2.5" y1="-1.6" x2="2.5" y2="-1.6" width="0.127" layer="48"/>
+<wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.127" layer="48"/>
+<smd name="4" x="-1.8" y="1.1" dx="2" dy="1.2" layer="1"/>
+<smd name="3" x="1.8" y="1.1" dx="2" dy="1.2" layer="1"/>
+<smd name="2" x="1.8" y="-1.1" dx="2" dy="1.2" layer="1"/>
+<smd name="1" x="-1.8" y="-1.1" dx="2" dy="1.2" layer="1"/>
+<wire x1="-0.6" y1="1.8" x2="0.6" y2="1.8" width="0.127" layer="21"/>
+<wire x1="-2.7" y1="0.3" x2="-2.7" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="2.7" y1="0.3" x2="2.7" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="-1.8" x2="0.6" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.6" x2="0" y2="0.7" width="0.127" layer="21"/>
+<wire x1="0" y1="0.7" x2="-0.2" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.3" x2="0.2" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0.3" x2="0" y2="0.7" width="0.127" layer="21"/>
+</package>
+<package name="XTAL3.2X2.5">
+<wire x1="1.6" y1="1.3" x2="-1.6" y2="1.3" width="0.127" layer="48"/>
+<wire x1="-1.6" y1="1.3" x2="-1.6" y2="-1.3" width="0.127" layer="48"/>
+<wire x1="-1.6" y1="-1.3" x2="1.6" y2="-1.3" width="0.127" layer="48"/>
+<wire x1="1.6" y1="-1.3" x2="1.6" y2="1.3" width="0.127" layer="48"/>
+<smd name="1" x="-1.1" y="-0.8" dx="1.4" dy="1.2" layer="1"/>
+<smd name="2" x="1.1" y="-0.8" dx="1.4" dy="1.2" layer="1"/>
+<smd name="3" x="1.1" y="0.8" dx="1.4" dy="1.2" layer="1"/>
+<smd name="4" x="-1.1" y="0.8" dx="1.4" dy="1.2" layer="1"/>
+<wire x1="-1.8" y1="0" x2="-1.7" y2="0" width="0.127" layer="21"/>
+<wire x1="1.8" y1="0" x2="1.7" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="1.5" x2="0.2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="-1.5" x2="0.2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.5" x2="0" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0" y1="0.8" x2="-0.2" y2="0.5" width="0.127" layer="21"/>
+<wire x1="-0.2" y1="0.5" x2="0.2" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.2" y1="0.5" x2="0" y2="0.8" width="0.127" layer="21"/>
+</package>
+<package name="SOT-363">
+<smd name="2" x="-0.9" y="0" dx="0.5" dy="0.45" layer="1"/>
+<smd name="5" x="0.9" y="0" dx="0.5" dy="0.45" layer="1"/>
+<smd name="1" x="-0.9" y="0.8" dx="0.5" dy="0.45" layer="1"/>
+<smd name="3" x="-0.9" y="-0.8" dx="0.5" dy="0.45" layer="1"/>
+<smd name="6" x="0.9" y="0.8" dx="0.5" dy="0.45" layer="1"/>
+<smd name="4" x="0.9" y="-0.8" dx="0.5" dy="0.45" layer="1"/>
+<wire x1="-0.6" y1="1" x2="0.6" y2="1" width="0.127" layer="48"/>
+<wire x1="0.6" y1="1" x2="0.6" y2="-1" width="0.127" layer="48"/>
+<wire x1="0.6" y1="-1" x2="-0.6" y2="-1" width="0.127" layer="48"/>
+<wire x1="-0.6" y1="-1" x2="-0.6" y2="1" width="0.127" layer="48"/>
+<wire x1="-0.4" y1="1.2" x2="0.4" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-1.2" x2="0.4" y2="-1.2" width="0.127" layer="21"/>
+<circle x="-0.3" y="0.7" radius="0.1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NXP|HEF4051BTD">
@@ -7013,7 +7065,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="S" x="0" y="-10.16" length="short" rot="R90"/>
 <pin name="D" x="0" y="10.16" length="short" rot="R270"/>
 </symbol>
-<symbol name="HC49US">
+<symbol name="CRYSTAL">
 <wire x1="-1.016" y1="5.08" x2="1.016" y2="5.08" width="0.254" layer="94"/>
 <wire x1="1.016" y1="5.08" x2="1.016" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="1.016" y1="-5.08" x2="-1.016" y2="-5.08" width="0.254" layer="94"/>
@@ -9598,6 +9650,72 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="2" x="0" y="-5.08" length="point"/>
 <wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
+<symbol name="N-DUAL-MOSFET">
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="6.604" y2="0" width="0.254" layer="94"/>
+<wire x1="6.604" y1="0" x2="6.604" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.794" x2="-5.08" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0.254" x2="-5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.524" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="1.016" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.048" x2="5.08" y2="2.286" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0.254" x2="5.08" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.524" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-4.064" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="1.27" x2="-3.556" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="1.778" x2="-3.556" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-3.556" y1="0.762" x2="-4.064" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="4.064" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.064" y1="1.27" x2="3.556" y2="1.778" width="0.254" layer="94"/>
+<wire x1="3.556" y1="1.778" x2="3.556" y2="0.762" width="0.254" layer="94"/>
+<wire x1="3.556" y1="0.762" x2="4.064" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-1.524" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="3.81" x2="-1.524" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.778" x2="-1.524" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.778" x2="-1.524" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.778" x2="-1.016" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.778" x2="-2.032" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.016" x2="-1.016" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.016" x2="-1.524" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="1.524" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.81" x2="1.524" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.778" x2="1.524" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-1.016" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.524" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.778" x2="2.032" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.524" y1="1.778" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.016" x2="2.032" y2="1.016" width="0.254" layer="94"/>
+<wire x1="2.032" y1="1.016" x2="1.524" y2="1.778" width="0.254" layer="94"/>
+<pin name="D1" x="-2.54" y="5.08" length="point" rot="R90"/>
+<pin name="D2" x="2.54" y="5.08" length="point" rot="R90"/>
+<pin name="G2" x="7.62" y="0" length="point"/>
+<pin name="S2" x="2.54" y="-5.08" length="point" rot="R270"/>
+<pin name="S1" x="-2.54" y="-5.08" length="point" rot="R270"/>
+<pin name="G1" x="-7.62" y="0" length="point" rot="R180"/>
+<text x="-5.08" y="-5.08" size="1.27" layer="94">-</text>
+<text x="5.08" y="-5.08" size="1.27" layer="94">-</text>
+<text x="-5.08" y="5.08" size="1.27" layer="94">+</text>
+<text x="5.08" y="5.08" size="1.27" layer="94">+</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="NXP|HEF4051BTD">
@@ -10147,7 +10265,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <deviceset name="HC49US">
 <description>16 MHz crystal</description>
 <gates>
-<gate name="G$1" symbol="HC49US" x="0" y="0"/>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="HC49US">
@@ -11644,7 +11762,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <deviceset name="XTAL">
 <description>Quartz timing crystal</description>
 <gates>
-<gate name="G$1" symbol="HC49US" x="0" y="0"/>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="HC49US">
@@ -13114,12 +13232,12 @@ Standard 16-pin 0.1" header.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET">
+<deviceset name="N-MOSFET">
 <gates>
 <gate name="G$1" symbol="MOSFET" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOT-23" package="SOT23-3LEAD">
+<device name="-SOT-23" package="SOT23-3LEAD">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13929,6 +14047,60 @@ Thru-hole RA Female Mini-B USB Connector 4UConnector: 18732&lt;/p&gt;
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRYSTAL">
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-HC49" package="HC49US">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5X3.2" package="XTAL5X3.2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3.2X2.5" package="XTAL3.2X2.5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="N-DUAL-MOSFET">
+<gates>
+<gate name="G$1" symbol="N-DUAL-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-363">
+<connects>
+<connect gate="G$1" pin="D1" pad="6"/>
+<connect gate="G$1" pin="D2" pad="3"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="5"/>
+<connect gate="G$1" pin="S1" pad="1"/>
+<connect gate="G$1" pin="S2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
